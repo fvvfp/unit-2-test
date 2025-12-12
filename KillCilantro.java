@@ -1,7 +1,9 @@
 public class KillCilantro {
    public static void main(String[] args) {
-      String str = "abcdefcilantrozxcv cilantroCilantro poiu";
-      System.out.println(killCilantro(str));
+      String str1 = "abcdefcilantrozxcv cilantroCilantro poiu";
+      String str2 = "CiLAntrocilantrocilantro12468cilantroooooooo  t   tcilantro";
+      System.out.println(killCilantro(str1));
+      System.out.println(killCilantro(str2));
    }
    
    public static String killCilantro(String recipe) {
