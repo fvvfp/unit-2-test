@@ -1,6 +1,6 @@
 public class KillCilantro {
    public static void main(String[] args) {
-      String str1 = "abcdefcilantrozxcv cilantroCilantro poiu";
+      String str1 = "cilantroabcdefcilantrozxcv cilantroCilantro poiu";
       String str2 = "CiLAntrocilantrocilantro12468cilantroooooooo  t   tcilantro";
       System.out.println(killCilantro(str1));
       System.out.println(killCilantro(str2));
